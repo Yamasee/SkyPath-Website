@@ -1418,7 +1418,16 @@
         color: #677294;
     }
 }
-.chat_features_area{}
+
+
+
+.chat_features_area{
+    @media (max-width: 600px) {
+        img {
+          width: 100%; // Override width to show only one image in a row on smaller screens
+        }
+      }
+}
 .chat_features_item{
     text-align: center;
     padding: 0px 30px;

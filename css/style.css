@@ -18998,6 +18998,12 @@ a .h_head:hover {
   color: #677294;
 }
 
+@media (max-width: 600px) {
+  .chat_features_area img {
+    width: 100%;
+  }
+}
+
 .chat_features_item {
   text-align: center;
   padding: 0px 30px;
