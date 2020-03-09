@@ -18973,49 +18973,10 @@ a .h_head:hover {
 }
 
 .chat_img {
-  position: relative;
+  margin-top: 100px;
 }
-.chat_img .round {
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  opacity: 0.7;
-}
-.chat_img .round.one {
-  background: #deeef1;
-  left: 0;
-  bottom: 120px;
-}
-.chat_img .round.two {
-  background: #f5eae3;
-  right: -20px;
-  top: 120px;
-}
-.chat_img .round.three {
-  background: #f9f5e8;
-  right: -50px;
-  top: 70px;
-  width: 60px;
-  height: 60px;
-}
-.chat_img .p_one {
-  right: -250px;
-  bottom: 300px;
-  animation: fadeInUp3 2.5s 1s both alternate infinite;
-  z-index: 1;
-}
-.chat_img .p_two {
-  left: -140px;
-  bottom: 300px;
-  z-index: 1;
-  animation: fadeInUp3 2.5s 3s both alternate infinite;
-}
-.chat_img .p_three {
-  right: -70px;
-  bottom: 180px;
-  z-index: 1;
-  animation: fadeInUp3 1.5s 5s both alternate infinite;
+.chat_img video {
+  border: 0;
 }
 
 /*=========== chat_core_features_area css ============*/
@@ -19160,7 +19121,7 @@ a .h_head:hover {
   margin-left: 30px;
 }
 .chat_features_img_two .chat_two {
-  bottom: 50px;
+  bottom: 150px;
   left: -30px;
 }
 .chat_features_img_two .chat_one {

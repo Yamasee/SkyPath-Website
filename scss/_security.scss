@@ -1340,6 +1340,7 @@
     height: 100vh;
     min-height: 700px;
     background: #fafafe;
+    //background: #DAF0FC;
     position: relative;
     padding: 150px 0px 120px;
     overflow: hidden;
@@ -1389,48 +1390,10 @@
     }
 }
 .chat_img{
-    position: relative;
-    .round{
-        position: absolute;
-        width: 100px;
-        height: 100px;
-        border-radius: 50%;
-        opacity: 0.7;
-        &.one{
-            background: #deeef1;
-            left: 0;
-            bottom: 120px;
-        }
-        &.two{
-            background: #f5eae3;
-            right: -20px;
-            top: 120px;
-        }
-        &.three{
-            background: #f9f5e8;
-            right: -50px;
-            top: 70px;
-            width: 60px;
-            height: 60px;
-        }
-    }
-    .p_one{
-        right: -250px;
-        bottom: 300px;
-        animation: fadeInUp3 2.5s 1s both alternate infinite;
-        z-index: 1;
-    }
-    .p_two{
-        left: -140px;
-        bottom: 300px;
-        z-index: 1;
-        animation: fadeInUp3 2.5s 3s both alternate infinite;
-    }
-    .p_three{
-        right: -70px;
-        bottom: 180px;
-        z-index: 1;
-        animation: fadeInUp3 1.5s 5s both alternate infinite;
+    margin-top:100px;
+    video {
+        
+        border: 0;
     }
 }
 
@@ -1587,7 +1550,7 @@
     background-image: -ms-linear-gradient( -140deg, rgb(247,176,92) 0%, rgb(240,130,96) 100%);
     margin-left: 30px;
     .chat_two{
-        bottom: 50px;
+        bottom: 150px;
         left: -30px;
     }
     .chat_one{
