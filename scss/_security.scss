@@ -1421,12 +1421,12 @@
 
 
 
-.chat_features_area{
-    @media (max-width: 600px) {
+@media (max-width: 600px) {
+    .chat_features_area{
         img {
           width: 100%; // Override width to show only one image in a row on smaller screens
         }
-      }
+    }
 }
 .chat_features_item{
     text-align: center;
